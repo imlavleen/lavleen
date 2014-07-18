@@ -1,39 +1,53 @@
-
 <html>
 <head>
 	<title>
 		mywebsite
 	</title>
 	<link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost/mywebsite/stylesheets/mobileView.css">
+	<script type="text/javascript" src="http://localhost/mywebsite/js/modernizr.custom.js"></script>
 </head>
 
 <body>
 
-	<div class="container" > 
+		<div class="container" > 
+			<div>
+			<nav id="bt-menu" class="bt-menu">
+			<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+			<ul class="unlist1">
+					<li> <a href="index.html">HOME</a>
+				</li>
+				<li> <a href="knowme.html">ABOUT INDIA</a>
+				</li>
+				<li> <a href="myworks.html">GEOGRAPHY</a>
+				</li>
+				<li> <a href="reachme.html">ATTRACTIONS</a>
+				</li>
+				<li> <a href="sign.html">SIGN IN</a>
+				</li>
+			</ul>	
+			</nav>
+		</div>
+
 		<div class="slide1">
-		<div class="head">
-			<ul class="navbar">
-				<li> <a href="#">HOME</a>
-				</li>
-				<li> <a href="#">KNOW ME</a>
-				</li>
-				<li> <a href="#">MY WORKS</a>
-				</li>
-				<li> <a href="#">CONTACT ME</a>
-				</li>
-				<li> <a href="#">SIGN IN</a>
-				</li>
-				
+			<div class="text">
+				<p>INCREDIBLE INDIA</p>
+			</div>
+			
 		</div>
-		
-		
-		<div class="slide2"> </div>
-		<div class="slide3"> </div>
-		<div class="slide4"> </div>
-		<div class="slide5"> </div>
-		</div>
+		<div class="slide2">
+			<div class="photobanner">
+        <img class="first" src="/mg/taj.jpg" alt="">
+        <img src="img/girls.jpg" alt="">
+        <img src="img/baba.jpg" alt="">
+        <img src="img/jk.jpg" alt="">
+        <img src="img/kasol.jpg" alt="">
+        <img src="img/el.jpg" alt="">
+		</div>	
+	</div>
 </body>
-<script src="<?php echo base_url();?>application/views/Home/js/classie.js"></script>
- <script src="<?php echo base_url();?>application/views/Home/js/borderMenu.js"></script>
+<!--script files tocreate mobile view-->
+<script type="text/javascript" src="http://localhost/mywebsite/js/classie.js"></script>
+<script type="text/javascript" src="http://localhost/mywebsite/js/borderMenu.js"></script>
 </html>
 
